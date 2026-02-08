@@ -1,0 +1,22 @@
+# Core LangChain Ecosystem
+langchain==0.3.27
+langchain-core==0.3.83
+langchain-community==0.3.31
+langchain-snowflake==0.2.2
+langgraph==0.6.11
+
+# Snowflake
+snowflake-snowpark-python==1.42.0
+
+# TruLens (AI Observability)
+trulens-core==2.5.3
+trulens-apps-langgraph==2.4.2
+trulens-connectors-snowflake
+trulens-dashboard
+trulens-providers-cortex
+
+# HTTP Requests
+requests
+
+# Custom Packages (install separately with: pip install -e .)
+# langchain-mcp-adapters
